@@ -1,8 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Montserrat:ital,wght@0,400;1,300&family=Ysabeau:ital,wght@1,100;1,200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Castoro+Titling&family=Montserrat:ital,wght@0,400;1,300&family=Ysabeau:ital,wght@1,100;1,200&display=swap');
 *,*::before,*::after{
     padding:0;
     margin:0;
@@ -45,7 +44,7 @@ a{
 
 .my-links{
     text-decoration: none;
-    margin-left: 20px;
+    /* margin-left: 10px; */
     margin-right: 10px;
     /* border: 1px solid green; */
     
@@ -116,8 +115,6 @@ a{
     padding: 20px 40px;
     background-color: #556B2F;
 }
-.form-details{
-}
 
 .reachout{
     text-align: center;
@@ -131,8 +128,7 @@ a{
     border: none;
     border-bottom: 2px solid teal;
 }
-.talk-details{
-}
+
 textarea{
     margin-top: 10px;
     width: 100%;
@@ -171,6 +167,7 @@ font-size: 1.0rem;
     /* padding: 40px;
     margin: 40px; */
     width: 100%;
+    /* border: 2px dotted red; */
 }
 
 .introduction-details{
@@ -202,7 +199,7 @@ font-size: 1.0rem;
     margin-right: 20px;
     margin-top: 20px;
 
-    font-size: 40px;
+    font-size: 30px;
     color:#556B2F;
     /* font-weight:bold; */
     /* margin-top: 50px; */
@@ -243,7 +240,7 @@ font-size: 1.0rem;
 }
 .about-me-pic{
     width: 300px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 70px;
     /* padding: 40px; */
     /* margin: 40px; */
@@ -260,7 +257,7 @@ font-size: 1.0rem;
     /* border: 2px solid black; */
     width: 100%;
     padding: 40px;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 
@@ -271,7 +268,7 @@ font-size: 1.0rem;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
-    padding-top: 20px;
+    padding-top: 10px;
 
     margin-left: 20px;
     margin-right: 20px;
@@ -285,7 +282,7 @@ font-size: 1.0rem;
 .greetings{
     text-align: center;
     font-family: "Castoro Titling";
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     padding-right: 40px;
     padding-left: 40px;
@@ -294,24 +291,104 @@ font-size: 1.0rem;
     font-size: 70px;
     color:#556B2F;
     font-weight:bold;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 
 
-
+.skill{
+    border: 2px solid red;
+}
 .experience{
     display: flex;
+    border: 2px solid black;
+    width: 100%;
 }
-.experience-list{
+
+.skills-icon{
     display: flex;
+    /* border: 2px solid blue; */
+    width: 50%;
+    margin-left: 25%;
+
 
 }
 
-.link-deco{
-    /* border: 2px solid green; */
+
+.icon-python{
+    width:100px;
+    margin-top: 10px;
+    padding-right: 50%;
+
+
+}
+.icon-css{
+    width:100px;
+    margin-top: 10px;
+    padding-right: 50%;
+
+}
+.icon-html{
+    width:140px;
+    margin-top: 10px;
+    padding-right: 50%;
+
+
 }
 
 
 
+.Tech-Drill-container{
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    width: 100%;
+}
 
+.techdrill-wrapper{
+    border: 2px solid blue;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 50%;
+}
+
+.aboutme-gangan{
+    /* background-color: black; */
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width: 40%;
+    width: auto;
+    text-align: center;
+    margin-left: 38%;
+    margin-right: auto;
+    padding: 30px;
+    background-color: blanchedalmond;
+    border-color: white;
+    color: white;
+
+}
+.aboutme-gangan:hover{
+    color: teal;
+}
+.parahraph{
+    font-size: 16px;
+    font-family:"Alegreya Sans";
+    text-align: center;
+    word-wrap: break-word;
+    color: #556B2F;
+    width:100%;
+    
+}
+.parahraph:hover{
+    color:red;
+}
+.mystory{
+    text-align: center;
+    font-family: "Castoro Titling";
+    font-size: 30px;
+    letter-spacing: 1.0rem;
+
+}
