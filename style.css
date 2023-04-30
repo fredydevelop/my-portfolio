@@ -37,21 +37,18 @@ a{
     text-decoration: none;
     outline: none;
 }
-nav{
-    border: 2px solid black;
+.navigation-link{
+     /* border: 2px solid red;  */
+     display: flex;
+
 }
 
-input{
-}
-.logo{
-    text-decoration: none;
-    display:inline-block;
-    display: inline;
-}
 .my-links{
     text-decoration: none;
     margin-left: 20px;
     margin-right: 10px;
+    /* border: 1px solid green; */
+    
     
 }
 
@@ -60,13 +57,53 @@ input{
     display: flex;
     list-style: none;
     width: 100%;
-    
+    /* border: 2px solid  yellow;  */
+    display: flex;
+
 
 }
 .link-container{
     width: 70%;
     margin-left: 30%;
+    /* border: 2px solid blue; */
+    display: flex;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+
+
+
 }
+.link-deco{
+    padding-right: 10px;
+    margin-right: 10px;
+    background-color: white;
+    color:#556B2F;
+    font-family: "Castoro Titling";
+    font-weight: bold;
+
+}
+.logo-container{
+    /* border: 2px solid black; */
+    width: 30%;
+}
+.logo{
+    /* border: 2px solid orange; */
+    font-size: 30px;
+    width:fit-content;
+    display: flex;
+    font-family: "Castoro Titling";
+    color: #556B2F;
+    letter-spacing: 7px;
+
+}
+.logo-link{
+    text-decoration: none;
+    display:inline-block;
+    display: inline;
+}
+
 .all-forming{
     width: 60%;
     margin: auto;
@@ -130,7 +167,6 @@ font-size: 1.0rem;
 }
 
 .introduction{
-    border: 2px solid red;
     margin-bottom: 20px;
     /* padding: 40px;
     margin: 40px; */
@@ -145,14 +181,12 @@ font-size: 1.0rem;
     /* background-color: blanchedalmond; */
     background-color: white;
     display: flex;
-    /* border: 2px solid red; */
 
 
     
 }
 
 .mainpic-container{
-    /* border: 2px solid red; */
     margin-left:10% ;
 
 }
@@ -166,7 +200,7 @@ font-size: 1.0rem;
     
    
     margin-right: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
 
     font-size: 40px;
     color:#556B2F;
@@ -178,7 +212,6 @@ font-size: 1.0rem;
 }
 
 .journey-wrapper{
-    /* border: 2px solid red; */
     /* padding-left: 20px; */
     
     width:50%; 
@@ -224,7 +257,7 @@ font-size: 1.0rem;
 }
 
 .greetings-box{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%;
     padding: 40px;
     margin-top: 20px;
@@ -235,7 +268,11 @@ font-size: 1.0rem;
 
 .greetings-wrapper{
     width: 100%;
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
     margin-left: 20px;
     margin-right: 20px;
     background-color: blanchedalmond;
@@ -259,4 +296,22 @@ font-size: 1.0rem;
     font-weight:bold;
     margin-top: 50px;
 }
+
+
+
+
+.experience{
+    display: flex;
+}
+.experience-list{
+    display: flex;
+
+}
+
+.link-deco{
+    /* border: 2px solid green; */
+}
+
+
+
 
