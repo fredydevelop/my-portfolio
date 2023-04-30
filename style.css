@@ -1,0 +1,262 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Montserrat:ital,wght@0,400;1,300&family=Ysabeau:ital,wght@1,100;1,200&display=swap');
+
+*,*::before,*::after{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-color: white;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+    color:black;
+}
+h1{
+    font-size: 1.4rem;
+    font-family: "Montserrat", "sans-serif";
+    color:black;
+}
+
+h2{
+    font-size: 1.9rem;
+    font-family: "Anton";
+    color: #556B2F;
+    font-size: 48px;
+    font-weight:bolder;
+    padding-bottom: 20px;
+    
+
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+nav{
+    border: 2px solid black;
+}
+
+input{
+}
+.logo{
+    text-decoration: none;
+    display:inline-block;
+    display: inline;
+}
+.my-links{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
+
+.navigation-list{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    
+
+}
+.link-container{
+    width: 70%;
+    margin-left: 30%;
+}
+.all-forming{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 40px;
+    margin-top: 30px;
+
+}
+.form-collect{
+    padding: 20px 40px;
+    background-color: #556B2F;
+}
+.form-details{
+}
+
+.reachout{
+    text-align: center;
+}
+
+.namedetail{
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid teal;
+}
+.talk-details{
+}
+textarea{
+    margin-top: 10px;
+    width: 100%;
+    resize: none;
+    border: 2px solid teal;
+    color: white;
+    text-indent: none;
+}
+
+.submit-button{
+    text-align: center;
+    border: none;
+    padding: 10px 40px;
+    margin-top:  20px;
+    position: relative;
+    background-color: teal;
+    color: white;
+    font-size: 1.2rem;
+
+}
+.submit-button:hover{
+    font-size: 1.0rem;
+    transition: 1.0s;
+    background-color: red;
+    color:white;
+}
+.lbel{
+color: white;
+display: block;
+font-size: 1.0rem;
+
+}
+
+.introduction{
+    border: 2px solid red;
+    margin-bottom: 20px;
+    /* padding: 40px;
+    margin: 40px; */
+    width: 100%;
+}
+
+.introduction-details{
+    width: 100%;
+    /* padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px; */ 
+    /* background-color: blanchedalmond; */
+    background-color: white;
+    display: flex;
+    /* border: 2px solid red; */
+
+
+    
+}
+
+.mainpic-container{
+    /* border: 2px solid red; */
+    margin-left:10% ;
+
+}
+
+.journey{
+    text-align: center;
+    font-family: "Ysabeau";
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    
+   
+    margin-right: 20px;
+    margin-top: 40px;
+
+    font-size: 40px;
+    color:#556B2F;
+    /* font-weight:bold; */
+    /* margin-top: 50px; */
+    /* border: 2px solid blue; */
+    width: 600px;
+
+}
+
+.journey-wrapper{
+    /* border: 2px solid red; */
+    /* padding-left: 20px; */
+    
+    width:50%; 
+
+}
+.story{
+    text-align: center;
+    color:teal;
+    font-size: 3.9em;
+}
+.deco{
+    color:brown;
+    font-weight: bolder;
+    
+}
+.Mystory{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:40px;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-bottom:1px solid #556B2F */
+}
+
+.img-container{
+    width: 20%;
+}
+.about-me-pic{
+    width: 300px;
+    padding-top: 40px;
+    padding-left: 70px;
+    /* padding: 40px; */
+    /* margin: 40px; */
+}
+
+.welcome{
+    font-size: 1.9rem;
+    color:#556B2F;
+    padding: 30px;
+
+}
+
+.greetings-box{
+    border: 2px solid black;
+    width: 100%;
+    padding: 40px;
+    margin-top: 20px;
+
+}
+
+
+
+.greetings-wrapper{
+    width: 100%;
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: blanchedalmond;
+
+    
+}
+
+
+
+.greetings{
+    text-align: center;
+    font-family: "Castoro Titling";
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+
+    font-size: 70px;
+    color:#556B2F;
+    font-weight:bold;
+    margin-top: 50px;
+}
+
