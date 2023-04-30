@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/3964faa7f4.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -19,13 +19,13 @@
             </div>
             <div class="link-container">
                 <ul class="navigation-list">
-                    <li class="list-to-click"><a href="#" class="my-links" id=""> <span class="link-deco"> About Me </span></a>
+                    <li class="list-to-click"><a href="#tech-drill-id" class="my-links" id=""> <span class="link-deco"> About Me </span></a>
                     </li>
-                    <li class="list-to-click"><a href="" class="my-links" id=""> <span class="link-deco"> Hashnode </span></a>
+                    <li class="list-to-click"><a href="https://hashnode.com/@TechboyCodedCoder" target="_blank"  class="my-links" > <span class="link-deco"> Hashnode </span></a>
                     </li>
                     <li class="list-to-click"><a href="" class="my-links" id=""> <span class="link-deco"> GitHub </span></a>
-                    <li class="list-to-click"><a href="" class="my-links" id=""> <span class="link-deco"> Resume </span></a>
-                    <li class="list-to-click"><a href="" class="my-links" id=""> <span class="link-deco"> Contact Me </span></a>
+                    <li class="list-to-click"><a href="https://www.linkedin.com/in/olushola-silva-340082239/"target="_blank" class="my-links" id=""> <span class="link-deco"> Linkeldn </span></a>
+                    <li class="list-to-click"><a href="#contactMe" class="my-links" id=""> <span class="link-deco"> Contact Me </span></a>
 
                     </li>
                 </ul>
@@ -84,48 +84,48 @@
                 </ul>                    
             
             </section> -->
-            <section class="Tech-Drill-container">
+            <section class="Tech-Drill-container" id="tech-drill-id">
                     <div class="drill-pic">
                         <img src="" alt="" class="pistory">
                     </div>
     
                     <div class="aboutme-gangan">
                         <h4 class="mystory">About Me</h4><br>
-                        <p class="parahraph"> Hello there, my name is [Your Name] and I am a software engineer with a passion for programming and problem solving. From a young age, I fell in love with the art of creativity and have always been drawn to technology and its endless possibilities. I find great satisfaction in the process of taking complex problems and breaking them down into simple, manageable steps that can be solved through programming.</p><br>
+                        <p class="parahraph"> Hello there, welcome onboard. Here is a little about me. I am a software engineer with a passion for programming and problem solving. From a young age, I fell in love with the art of creativity and have always been drawn to technology and its endless possibilities. I find great satisfaction in the process of taking complex problems and breaking them down into simple, manageable steps that can be solved through programming.</p><br>
                         <p class="parahraph"> My strength lies in Python, a programming language that I have been working with for several years now. I find its simplicity and versatility to be unmatched, and I enjoy exploring its full potential by constantly learning and experimenting with new techniques and tools. My goal is to become a full-stack software engineer, with a deep understanding of both front-end and back-end technologies. I believe that this will allow me to contribute even more to the development of innovative and impactful software solutions. </p><br>
-                        <p class="parahraph"> In addition to Python, I am also proficient in HTML, CSS, machine learning, and data science. I have completed several projects in these areas, including developing websites, creating machine learning models, and analyzing data sets. I am always eager to apply my problem-solving skills to new challenges and to help others solve problems related to these fields.</p><br>
                         
                     </div>
             </section>
 
-            <section class="all-forming">
-                <h2 class="reachout">Get In Touch</h2>
+            <section class="all-forming" id="contactMe">
+                <h2 class="reachout">Message Me</h2>
                 <form action="#" class="form-collect">
-                    <div class="form-details">
-                        <label for="Firstname" class="lbel">First Name</label>
-                        <input type="text" id="Firstname" class="namedetail" placeholder="Enter your First Name" required>
-
+                    <div class="form-overall-wrapper">
+                        <div class="form-details">
+                            <label for="Firstname" class="lbel">First Name:</label>
+                            <input type="text" id="Firstname" class="namedetail" placeholder="Enter your First Name" required>
+    
+                        </div>
+                        <div class="form-details">
+                            <label for="Lastname" class="lbel">Last Name:</label>
+                            <input type="text" id="Lastname" class="namedetail" placeholder="Enter your Last Name" required>
+    
+                        </div>
+                        <div class="form-details2">
+                            <label for="Email" class="lbel">Email:</label>
+                            <input type="email" id="email" class="namedetail" placeholder="Email" required>
+    
+                        </div>
+                        <div class="talk-details">
+                            <label for="write" class="lbel">Message:</label>
+                            <textarea name="writetome" id="write" cols="50" rows="7" class="collect-info" required>
+    
+    
+                            </textarea>
+                            <input type="submit" value="submit" class="submit-button">
+    
+                        </div>
                     </div>
-                    <div class="form-details">
-                        <label for="Lastname" class="lbel">Last Name</label>
-                        <input type="text" id="Lastname" class="namedetail" placeholder="Enter your Last Name" required>
-
-                    </div>
-                    <div class="form-details">
-                        <label for="Email" class="lbel">Email</label>
-                        <input type="email" id="email" class="namedetail" placeholder="Email" required>
-
-                    </div>
-                    <div class="talk-details">
-                        <label for="write" class="lbel">Message</label>
-                        <textarea name="writetome" id="write" cols="50" rows="10" class="collect-info" required>
-
-
-                        </textarea>
-                        <input type="submit" value="submit" class="submit-button">
-
-                    </div>
-                    
 
                 </form>
             </section>
@@ -133,12 +133,25 @@
        
     </main>
 
-
     <footer>
-        <section>
-
+        <section class="footer-container">
+        
+            <div class="datewrapper">
+                <!-- <p class="footer-details">@copyright.com</p> -->
+            </div>
+            <div class="footer-wrapper">
+                <p class="footer-icon-name">Social media</p>
+                <ul class="footer-icon-container">
+                    <li class="icon"><i class="fa-brands fa-instagram  instacon"></i><p>Instagram</p></li>
+                </ul>
+                <ul class="footer-icon-container">
+                    <li class="icon"><i class="fa-brands fa-twitter twitacon"></i></i> <p>Twitter</p></li>
+                </ul>
+                <ul class="footer-icon-container">
+                    <li class="icon"><i class="fa-brands fa-facebook facacon"></i> <p>Twitter</p></li>
+                </ul>
+            </div>
         </section>
-
 
     </footer>
 </body>

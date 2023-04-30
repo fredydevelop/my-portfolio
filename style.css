@@ -12,13 +12,15 @@
 body{
     background-color: white;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-
+    
     color:black;
 }
 h1{
-    font-size: 1.4rem;
-    font-family: "Montserrat", "sans-serif";
+    font-size: 10px;
+    font-family: "Castoro Titling";
     color:black;
+    text-align: right;
+    padding-right: 16%;
 }
 
 h2{
@@ -39,6 +41,7 @@ a{
 .navigation-link{
      /* border: 2px solid red;  */
      display: flex;
+     margin-top: 1%;
 
 }
 
@@ -49,6 +52,13 @@ a{
     /* border: 1px solid green; */
     
     
+    
+}
+
+.my-links:hover{
+    color: crimson;
+    
+
 }
 
 .navigation-list{
@@ -83,6 +93,9 @@ a{
     font-weight: bold;
 
 }
+.link-deco:hover{
+    color: crimson;
+}
 .logo-container{
     /* border: 2px solid black; */
     width: 30%;
@@ -97,14 +110,18 @@ a{
     letter-spacing: 7px;
 
 }
+.logo:hover{
+    color: crimson;
+    
+}
 .logo-link{
     text-decoration: none;
     display:inline-block;
     display: inline;
 }
 
-.all-forming{
-    width: 60%;
+/* .all-forming{
+    max-width: 60%;
     margin: auto;
     background-color: white;
     padding: 40px;
@@ -114,10 +131,42 @@ a{
 .form-collect{
     padding: 20px 40px;
     background-color: #556B2F;
+    border-radius: 10px;
+    max-width: 60%;
+    width: relative;
+    margin-left: 38%;
+    margin-right: auto;
+    
+
+} */
+
+.all-forming{
+    width: 100%;
+    margin: auto;
+    /* background-color: white; */
+    /* padding: 40px; */
+    margin-top: 20px;
+    /* margin-bottom: z;
+ */
+
+}
+.form-collect{
+    padding: 20px 40px;
+    background-color: blanchedalmond;
+    max-width:50%;
+    height: fit-content;
+    margin-left: 30%;
+    margin-bottom: 20px
 }
 
 .reachout{
     text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    padding-left: 10%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding-top: 50px;
 }
 
 .namedetail{
@@ -127,6 +176,7 @@ a{
     margin-bottom: 10px;
     border: none;
     border-bottom: 2px solid teal;
+    border-color: #556B2F;
 }
 
 textarea{
@@ -156,10 +206,24 @@ textarea{
     color:white;
 }
 .lbel{
-color: white;
+color: teal;
 display: block;
-font-size: 1.0rem;
+font-size: 20px;
+font-family: "Castoro Titling";
 
+
+}
+
+/* .txtbox{
+    border: 2px solid blue;
+    display: inline-block;
+    width:50%
+} */
+.collect-info{
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    /* padding-left: 10%; */
 }
 
 .introduction{
@@ -167,6 +231,8 @@ font-size: 1.0rem;
     /* padding: 40px;
     margin: 40px; */
     width: 100%;
+    margin-top: 10%;
+
     /* border: 2px dotted red; */
 }
 
@@ -174,7 +240,7 @@ font-size: 1.0rem;
     width: 100%;
     /* padding: 40px;
     margin-left: 20px;
-    margin-right: 20px; */ 
+    margin-right: 20px; form-collect */ 
     /* background-color: blanchedalmond; */
     background-color: white;
     display: flex;
@@ -199,7 +265,7 @@ font-size: 1.0rem;
     margin-right: 20px;
     margin-top: 20px;
 
-    font-size: 30px;
+    font-size: 40px;
     color:#556B2F;
     /* font-weight:bold; */
     /* margin-top: 50px; */
@@ -257,7 +323,7 @@ font-size: 1.0rem;
     /* border: 2px solid black; */
     width: 100%;
     padding: 40px;
-    margin-top: 10px;
+    margin-top: 5%;
 
 }
 
@@ -359,12 +425,14 @@ font-size: 1.0rem;
     /* background-color: black; */
     border: 2px solid white;
     border-radius: 10px;
-    max-width: 40%;
-    width: auto;
+    max-width: 70%;
+    width: relative;
     text-align: center;
-    margin-left: 38%;
+    margin-left: 20%;
     margin-right: auto;
-    padding: 30px;
+    margin-top: 80px;
+    padding: 50px;
+    margin-bottom: 50px;
     background-color: blanchedalmond;
     border-color: white;
     color: white;
@@ -374,7 +442,7 @@ font-size: 1.0rem;
     color: teal;
 }
 .parahraph{
-    font-size: 16px;
+    font-size: 20px;
     font-family:"Alegreya Sans";
     text-align: center;
     word-wrap: break-word;
@@ -390,5 +458,88 @@ font-size: 1.0rem;
     font-family: "Castoro Titling";
     font-size: 30px;
     letter-spacing: 1.0rem;
+    width: inherit;
 
+}
+
+
+
+
+.footer-container{
+    display: flex;
+    /* border: 2px solid green;  */
+    margin-top: 50px;
+    padding-top: 50px;
+
+}
+
+.footer-wrapper  {
+
+    /* display: flex; */
+    margin-bottom: 30px;
+    /* width: ; */
+    width: fit-content;
+    height:inherit;
+    width: 50%;
+    margin-left: 25%;
+    /* margin-top: 10.5rem; */
+    padding-left:50px;
+     /* border:2px solid red;  */
+
+}
+
+.footer-icon-container {
+    display: flex;
+    margin-bottom: 30px;
+    height: fit-content;
+    /* border:2px solid black;  */
+    margin-top: 10px;
+    /* padding-left:10% ; */
+    list-style: none;
+    width: 50%;
+    margin-left: 30%;
+
+}
+
+
+.footer-icon-name{
+    text-align: left;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: "Castoro Titling";
+    /* padding-left:10% ; */
+    color:#556B2F;
+    word-wrap: normal;
+    padding-left: 50px;
+    margin-left: 150px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+
+}
+
+
+.icon> p{
+    color:#556B2F;
+    display: inline;
+    font-family: "Castoro Titling";
+    padding-left: 40px;
+}
+
+.instacon{
+    background: linear-gradient(to right, #405DE6, #833AB4, #C13584, #FD1D1D, #F56040, #F77737);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;    width: 12px;
+    /* padding-top: 10px; */
+    background-size: 100%;
+    
+
+    
+}
+.twitacon{
+    background: linear-gradient(to right, #1DA1F2, #1DA1F2, #1877f2, #1877f2, #0057ae, #0057ae);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100%;
 }
