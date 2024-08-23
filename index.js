@@ -62,6 +62,8 @@ document.addEventListener("DOMContentLoaded",function() {
         
     })
 
+    if (window.innerWidth>= 1200){
+
     sr.reveal(`.nameintro`)
     sr.reveal(`.picture`,{delay:300, distance:"100px", origin:"bottom"})
     sr.reveal(`.drill-pic`,{delay:300, distance:"300px", origin:"left", easing:"cubic-bezier(.05,.01,.02,.98)"})
@@ -86,6 +88,8 @@ document.addEventListener("DOMContentLoaded",function() {
     sr.reveal(`.contact-me`,{delay:300, distance:"300px", origin:"bottom", easing:"cubic-bezier(.05,.01,.02,.98)"})
     sr.reveal(`.resume`,{delay:300, distance:"400px", origin:"bottom", easing:"cubic-bezier(.05,.01,.02,.98)"})
   
-    copyright-writeup2
+
+   }
+    
 })
 
